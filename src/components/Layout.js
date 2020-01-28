@@ -52,7 +52,6 @@ const Layout = ({ children, location }) => {
               <Footer />
           </motion.main>
         </AnimatePresence>
-      
       </div>
     </>
   )
