@@ -80,7 +80,7 @@ const Blog = ({ data, pageContext }) => {
                 <MDXProvider>
                   <MDXRenderer>{post.body.childMdx.body}</MDXRenderer>
                 </MDXProvider>
-                <div className="buttons">
+{/*  <div className="buttons">
                   <a
                     sx={{
                       variant: 'styles.a',
@@ -89,7 +89,7 @@ const Blog = ({ data, pageContext }) => {
                   >
                     Discuss on Twitter
                   </a>
-                </div>
+                </div> */}
               </article>
             </Content>
           ))}
